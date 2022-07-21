@@ -1,0 +1,7 @@
+---
+- name: test some new tasks
+  hosts: webservers
+  become: yes
+  become_user: root
+  task: 
+  - name: 
